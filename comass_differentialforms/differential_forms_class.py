@@ -75,7 +75,7 @@ class Form:
         return wedged_summands
 
     def contract(self,subspace):
-        '''Contract a subspace with a Form, returning a form of lower degree. Also known as interior         product in differential geometry.
+        '''Contract a subspace with a Form, returning a form of lower degree. Also known as interior product in differential geometry.
         :param subspace a two-dimensional numpy array
         :return Form object, the interior product of self with the subspace
         '''
